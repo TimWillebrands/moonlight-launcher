@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="script.moonlight.launcher" version="0.0.1" name="Moonlight" provider-name="da Rav">
+        <requires></requires>
+        <extension point="xbmc.executebuiltin" library="switch.py">
+                <provides>executable</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+                <summary>Moonlight</summary>
+                <description>Simple program to switch to Moonlight</description>
+                <platform>all</platform>
+        </extension>
+</addon>
